@@ -23,7 +23,7 @@ Este repositorio contiene dos proyectos desarrollados como parte del curso I de 
   - [🛠️ Tecnologías Utilizadas](#️tecnologías-utilizadas-1)
   - [📄 Model Card](#model-card-1)
   - [📊 Resultados](#resultados-1)
-  - [🧩 Conclusiones](#Conclusiones)
+  - [🧩 Conclusiones](Conclusiones)
 
 ---
 
