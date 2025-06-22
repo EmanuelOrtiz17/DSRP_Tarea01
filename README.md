@@ -49,7 +49,7 @@ _(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 - Instancias: 569
 - Atributos: 30 características numéricas + 1 etiqueta (diagnóstico)
 
-### 🛠️ Tecnologías Utilizadas
+🛠️ ###  Tecnologías Utilizadas
 
 - Python 3.x
 - Scikit-learn
