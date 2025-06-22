@@ -1,6 +1,6 @@
 # DSRP_Tarea01
 
-# 🧠 Proyectos de Especialización en Machine Learning Engineering
+# 🧠 Proyectos de Especialización en Machine Learning
 
 Este repositorio contiene dos proyectos desarrollados como parte del curso I de la especialización en Machine Learning Engineering. Ambos abordan problemas reales aplicando principios de programación orientada a objetos, buenas prácticas de ingeniería de software y fundamentos de Machine Learning.
 
