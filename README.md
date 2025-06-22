@@ -1,6 +1,6 @@
-# 🧠 Proyectos de Especialización en Machine Learning
+# 🧠 Proyectos de Especialización en Machine Learning Engineering
 
-Este repositorio contiene dos proyectos desarrollados como parte del curso I de la especialización en Machine Learning. Ambos abordan problemas reales aplicando principios de programación orientada a objetos, buenas prácticas de ingeniería de software y fundamentos de Machine Learning.
+Este repositorio contiene dos proyectos desarrollados como parte del curso I de la especialización en Machine Learning Engineering. Ambos abordan problemas reales aplicando principios de programación orientada a objetos, buenas prácticas de ingeniería de software y fundamentos de Machine Learning.
 
 ---
 
@@ -23,7 +23,7 @@ Este repositorio contiene dos proyectos desarrollados como parte del curso I de 
   - [🛠️ Tecnologías Utilizadas](#️tecnologías-utilizadas-1)
   - [📄 Model Card](#model-card-1)
   - [📊 Resultados](#resultados-1)
-  - [🧩 Conclusiones](Conclusiones)
+  - [🧩 Conclusiones](#conclusiones-1)
 
 ---
 
@@ -133,3 +133,5 @@ _(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 - Se aplicaron buenas prácticas de ingeniería para facilitar mantenimiento y escalabilidad.
 
 ---
+
+
