@@ -1,30 +1,29 @@
-# DSRP_Tarea01
-
 # 🧠 Proyectos de Especialización en Machine Learning
 
-Este repositorio contiene dos proyectos desarrollados como parte del curso I de la especialización en Machine Learning Engineering. Ambos abordan problemas reales aplicando principios de programación orientada a objetos, buenas prácticas de ingeniería de software y fundamentos de Machine Learning.
+Este repositorio contiene dos proyectos desarrollados como parte del curso I de la especialización en Machine Learning. Ambos abordan problemas reales aplicando principios de programación orientada a objetos, buenas prácticas de ingeniería de software y fundamentos de Machine Learning.
 
 ---
 
 ## 📚 Tabla de Contenidos
 
-- 🎯 Objetivo General
-- 📁 Proyecto 1: Clasificación de Cáncer de Mama
-  - Definición del Problema
-  - Diagrama de Flujo
-  - Descripción del Dataset
-  - 🛠️ Tecnologías Utilizadas
-  - 📖 Diccionario de Datos
-  - 📄 Model Card
-  - 📊 Resultados
-  - 🧩 Conclusiones
-- 📁 Proyecto 2: Clasificación de Color y Forma de Objetos
-  - Definición del Problema
-  - Diagrama de Flujo
-  - Descripción del Dataset
-  - 🛠️ Tecnologías Utilizadas
-  - 📄 Model Card
-  - [📊 Resultados](#resultnclusiones
+- [🎯 Objetivo General](#objetivo-general)
+- [📁 Proyecto 1: Clasificación de Cáncer de Mama](#proyecto-1-clasificación-de-cáncer-de-mama)
+  - [Definición del Problema](#definición-del-problema)
+  - [Diagrama de Flujo](#diagrama-de-flujo)
+  - [Descripción del Dataset](#descripción-del-dataset)
+  - [🛠️ Tecnologías Utilizadas](#️tecnologías-utilizadas)
+  - [📖 Diccionario de Datos](#diccionario-de-datos)
+  - [📄 Model Card](#model-card)
+  - [📊 Resultados](#resultados)
+  - [🧩 Conclusiones](#conclusiones)
+- [📁 Proyecto 2: Clasificación de Color y Forma de Objetos](#proyecto-2-clasificación-de-color-y-forma-de-objetos)
+  - [Definición del Problema](#definición-del-problema-1)
+  - [Diagrama de Flujo](#diagrama-de-flujo-1)
+  - [Descripción del Dataset](#descripción-del-dataset-1)
+  - [🛠️ Tecnologías Utilizadas](#️tecnologías-utilizadas-1)
+  - [📄 Model Card](#model-card-1)
+  - [📊 Resultados](#resultados-1)
+  - [🧩 Conclusiones](#conclusiones-1)
 
 ---
 
@@ -46,7 +45,9 @@ _(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 
 ### Descripción del Dataset
 
-- Fuente: [UCI Machine Learning Repository](https://archive.ics.tributos: 30 características numéricas + 1 etiqueta (diagnóstico)
+- Fuente: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
+- Instancias: 569
+- Atributos: 30 características numéricas + 1 etiqueta (diagnóstico)
 
 ### 🛠️ Tecnologías Utilizadas
 
@@ -132,5 +133,3 @@ _(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 - Se aplicaron buenas prácticas de ingeniería para facilitar mantenimiento y escalabilidad.
 
 ---
-
-¿Te gustaría que ahora generemos los diagramas de flujo para ambos proyectos? ¿O prefieres que preparemos el archivo `README.md` como archivo descargable para que lo edites directamente?
