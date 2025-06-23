@@ -9,7 +9,6 @@ Este repositorio contiene dos proyectos desarrollados como parte del curso I de 
 - [🎯 Objetivo General](#-objetivo-general)
 - [📁 Proyecto 1: Clasificación de Cáncer de Mama](#-proyecto-1-clasificación-de-cáncer-de-mama)
   - [Definición del Problema](#definición-del-problema)
-  - [Diagrama de Flujo](#diagrama-de-flujo)
   - [Descripción del Dataset](#descripción-del-dataset)
   - [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
   - [📖 Diccionario de Datos](#-diccionario-de-datos)
@@ -18,7 +17,6 @@ Este repositorio contiene dos proyectos desarrollados como parte del curso I de 
   - [🧩 Conclusiones](#-conclusiones)
 - [📁 Proyecto 2: Clasificación de Color y Forma de Objetos](#-proyecto-2-clasificación-de-color-y-forma-de-objetos)
   - [Definición del Problema](#definición-del-problema-1)
-  - [Diagrama de Flujo](#diagrama-de-flujo-1)
   - [Descripción del Dataset](#descripción-del-dataset-1)
   - [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas-1)
   - [📄 Model Card](#-model-card-1)
@@ -38,10 +36,6 @@ Aplicar conocimientos teóricos y prácticos en Machine Learning para resolver p
 ### Definición del Problema
 
 Construir un modelo de clasificación supervisado para diagnosticar si un tumor de mama es maligno o benigno utilizando el dataset **Breast Cancer Wisconsin (Diagnostic)**.
-
-### Diagrama de Flujo
-
-_(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 
 ### Descripción del Dataset
 
@@ -95,7 +89,7 @@ Cada una de estas características aparece como:
 - `1`: Benigno
 
 
-### 📄 Model Card (Actualizado)
+### 📄 Model Card
 
 **Modelo:** Support Vector Classifier (SVC) con kernel RBF (por defecto)  
 **Métrica principal:** Accuracy, Precision, Recall, F1-score  
@@ -153,10 +147,6 @@ Cada una de estas características aparece como:
 ### Definición del Problema
 
 Desarrollar un modelo basado en un Perceptrón Multicapa (MLP) para clasificar objetos en imágenes según su color y forma.
-
-### Diagrama de Flujo
-
-_(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 
 ### Descripción del Dataset
 
