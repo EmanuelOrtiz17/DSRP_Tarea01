@@ -12,18 +12,18 @@ Este repositorio contiene dos proyectos desarrollados como parte del curso I de 
   - [Diagrama de Flujo](#diagrama-de-flujo)
   - [Descripción del Dataset](#descripción-del-dataset)
   - [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
-  - [📖 Diccionario de Datos](#diccionario-de-datos)
-  - [📄 Model Card](#model-card)
-  - [📊 Resultados](#resultados)
-  - [🧩 Conclusiones](#conclusiones)
+  - [📖 Diccionario de Datos](#-diccionario-de-datos)
+  - [📄 Model Card](#-model-card)
+  - [📊 Resultados](#-resultados)
+  - [🧩 Conclusiones](#-conclusiones)
 - [📁 Proyecto 2: Clasificación de Color y Forma de Objetos](#-proyecto-2-clasificación-de-color-y-forma-de-objetos)
   - [Definición del Problema](#definición-del-problema-1)
   - [Diagrama de Flujo](#diagrama-de-flujo-1)
   - [Descripción del Dataset](#descripción-del-dataset-1)
   - [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas-1)
-  - [📄 Model Card](#model-card-1)
-  - [📊 Resultados](#resultados-1)
-  - [🧩 Conclusiones](#conclusiones-1)
+  - [📄 Model Card](#-model-card-1)
+  - [📊 Resultados](#-resultados-1)
+  - [🧩 Conclusiones](#-conclusiones-1)
 
 ---
 
@@ -133,6 +133,8 @@ _(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 - Se aplicaron buenas prácticas de ingeniería para facilitar mantenimiento y escalabilidad.
 
 ---
+
+
 
 
 
