@@ -47,24 +47,53 @@ _(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 
 - Fuente: [Scikit Learn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
 - Instancias: 569
-- Atributos: 30 características numéricas + 1 etiqueta (diagnóstico)
+- Características: 30 variables numéricas (todas reales y positivas)
+- Etiquetas: 2 clases (malignant = maligno, benign = benigno)
+- Formato: Matriz de datos de forma (569, 30) y vector objetivo de forma (569,)
+- Fuente original: UCI ML Repository
+- Uso en Scikit-learn: from sklearn.datasets import load_breast_cancer
 
 ### 🛠️ Tecnologías Utilizadas
 
-- Python 3.x
-- Scikit-learn
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Git & GitHub
+- Python 3.x: Lenguaje de programación principal.
+- Jupyter Notebook: Entorno interactivo para desarrollo y documentación del código.
+- Scikit-learn (sklearn): Biblioteca de aprendizaje automático utilizada para:
+- Cargar el dataset (datasets.load_breast_cancer)
+- Entrenar el modelo (SVC)
+- Dividir los datos (train_test_split)
+- Evaluar el modelo (accuracy_score, confusion_matrix, classification_report)
+- NumPy: Para manipulación de arrays numéricos.
+
 
 ### 📖 Diccionario de Datos
 
-| Variable       | Descripción                          |
-|----------------|--------------------------------------|
-| radius_mean    | Promedio del radio de las células    |
-| texture_mean   | Promedio de la textura               |
-| ...            | ...                                  |
-| diagnosis      | Diagnóstico (M = maligno, B = benigno)|
+El dataset **Breast Cancer Wisconsin (Diagnostic)** contiene 30 características numéricas extraídas de imágenes digitales de aspirados con aguja fina (FNA) de masas mamarias. Estas características describen propiedades de los núcleos celulares.
+
+Cada característica se calcula en tres versiones: **media**, **error estándar** y **valor “peor”** (mayor valor entre los tres peores núcleos).
+
+| Categoría         | Característica                  | Descripción                                                                 |
+|-------------------|----------------------------------|-----------------------------------------------------------------------------|
+| Forma             | `radius`                        | Promedio de distancias del centro al perímetro                             |
+| Textura           | `texture`                       | Desviación estándar de los valores de escala de grises                     |
+| Forma             | `perimeter`                     | Perímetro de la masa                                                        |
+| Área              | `area`                          | Área de la masa                                                             |
+| Suavidad          | `smoothness`                    | Variación local en la longitud del radio                                   |
+| Compacidad        | `compactness`                   | (perímetro² / área) - 1.0                                                  |
+| Concavidad        | `concavity`                     | Severidad de las partes cóncavas del contorno                              |
+| Puntos cóncavos   | `concave points`                | Número de partes cóncavas del contorno                                     |
+| Simetría          | `symmetry`                      | Simetría del núcleo                                                         |
+| Dimensión fractal | `fractal dimension`             | Aproximación de la dimensión fractal del contorno                          |
+
+Cada una de estas características aparece como:
+
+- `mean`: valor promedio
+- `se`: error estándar
+- `worst`: valor máximo entre los tres peores núcleos
+
+**Variable objetivo (`target`)**:
+- `0`: Maligno
+- `1`: Benigno
+
 
 ### 📄 Model Card
 
