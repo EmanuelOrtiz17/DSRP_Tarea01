@@ -45,7 +45,7 @@ _(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 
 ### Descripción del Dataset
 
-- Fuente: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
+- Fuente: [Scikit Learn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
 - Instancias: 569
 - Atributos: 30 características numéricas + 1 etiqueta (diagnóstico)
 
@@ -56,7 +56,6 @@ _(Aquí se incluirá un diagrama visual del flujo del proyecto)_
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Git & GitHub
-- Principios SOLID y POO
 
 ### 📖 Diccionario de Datos
 
