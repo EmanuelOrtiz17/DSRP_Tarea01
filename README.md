@@ -148,36 +148,71 @@ Cada una de estas características aparece como:
 
 Desarrollar un modelo basado en un Perceptrón Multicapa (MLP) para clasificar objetos en imágenes según su color y forma.
 
-### Descripción del Dataset
+### 📦 Descripción del Dataset
 
 - Dataset propio o generado artificialmente
-- Atributos: características extraídas de imágenes (color, forma)
-- Etiquetas: combinaciones como "círculo rojo", "cuadrado azul", etc.
+- Atributos: características extraídas de imágenes (color en espacio HSV y forma mediante momentos de Hu)
+- Etiquetas: combinaciones como `"círculo rojo"`, `"cuadrado azul"`, etc.
+- Tamaño del dataset:
+  - **Color**: 27 imágenes de entrenamiento, 9 de prueba
+  - **Forma**: 12 imágenes de entrenamiento, 9 de prueba
+
+---
 
 ### 🛠️ Tecnologías Utilizadas
 
 - Python 3.x
-- Scikit-learn o Keras (según implementación)
-- OpenCV o PIL (para procesamiento de imágenes)
+- Scikit-learn (MLPClassifier)
+- OpenCV (cv2) para procesamiento de imágenes
+- PIL (Python Imaging Library)
+- Matplotlib y NumPy
+- Scikit-image (skimage)
 - Git & GitHub
 - Principios SOLID y POO
+
+---
 
 ### 📄 Model Card
 
 - **Modelo:** Perceptrón Multicapa (MLP)
+  - Color: `hidden_layer_sizes=(16, 11)`
+  - Forma: `hidden_layer_sizes=(10, 6)`
 - **Métrica principal:** Accuracy
-- **Uso previsto:** Clasificación visual básica
-- **Limitaciones:** Dataset limitado, no robusto a ruido visual
+- **Uso previsto:** Clasificación visual básica de objetos por color y forma
+- **Limitaciones:**
+  - Dataset pequeño y artificial
+  - No robusto a ruido, rotaciones extremas o condiciones de iluminación variables
+  - El modelo no fue escalado ni optimizado con técnicas de regularización avanzadas
+
+---
 
 ### 📊 Resultados
 
-- Accuracy: XX%
-- Ejemplos de predicciones correctas e incorrectas
+#### Clasificador de Color:
+- **Accuracy:** 100%
+- **Matriz de Confusión:**
+  [[3 0 0]
+   [0 3 0]
+   [0 0 3]]
+- **Predicciones correctas:** 9/9
 
-### 🧩 Conclusiones
+#### Clasificador de Forma:
+- **Accuracy:** 100%
+- **Matriz de Confusión:**
+  [[3 0 0]
+   [0 3 0]
+   [0 0 3]]
+- **Predicciones correctas:** 9/9
 
-- El MLP logra distinguir combinaciones básicas de color y forma.
-- Se aplicaron buenas prácticas de ingeniería para facilitar mantenimiento y escalabilidad.
+---
+
+### 🧠 Conclusiones
+
+- El modelo MLP logró clasificar correctamente todas las imágenes tanto por color como por forma.
+- Se utilizaron descriptores simples pero efectivos: HSV para color y momentos de Hu para forma.
+- El pipeline demuestra una implementación clara de un sistema de clasificación visual básico.
+- Se recomienda escalar el dataset y aplicar validación cruzada para evaluar la generalización.
+- El uso de buenas prácticas como funciones modulares y separación de entrenamiento/prueba facilita la mantenibilidad del código.
 
 ---
 
