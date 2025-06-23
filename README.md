@@ -95,14 +95,19 @@ Cada una de estas características aparece como:
 - `1`: Benigno
 
 
-### 📄 Model Card
+### 📄 Model Card (Actualizado)
 
-- **Modelo:** Clasificador supervisado (Random Forest, SVM, etc.)
-- **Métrica principal:** Accuracy, Precision, Recall, F1-score
-- **Uso previsto:** Diagnóstico médico asistido
-- **Limitaciones:** No sustituye diagnóstico clínico profesional
+**Modelo:** Support Vector Classifier (SVC) con kernel RBF (por defecto)  
+**Métrica principal:** Accuracy, Precision, Recall, F1-score  
+**Uso previsto:** Diagnóstico médico asistido para clasificación de tumores de mama
 
-## 📊 Resultados (Actualizado)
+⚠️ Limitaciones:
+- No sustituye diagnóstico clínico profesional  
+- Sensible a la escala de los datos (**no se aplicó normalización**)  
+- Tendencia a clasificar en exceso como benigno (ver matriz de confusión)
+
+
+## 📊 Resultados
 
 **Accuracy:** 93.6%
 
@@ -127,14 +132,14 @@ Cada una de estas características aparece como:
 
 ---
 
-### 🔍 Observaciones:
+ 🔍 Observaciones:
 
 - El modelo clasificó correctamente todos los casos benignos.  
 - Se cometieron **11 falsos negativos** (malignos clasificados como benignos), lo cual es crítico en contextos médicos.
 
 ---
 
-## 🧠 Conclusiones (Actualizado)
+## 🧠 Conclusiones
 
 - El modelo **SVC** alcanzó una precisión general alta (**93.6%**), pero mostró un **recall bajo para la clase maligna**, lo cual puede ser riesgoso en aplicaciones clínicas.  
 - Se recomienda aplicar **normalización de datos** y **ajustar hiperparámetros** para mejorar la sensibilidad del modelo.  
