@@ -102,20 +102,44 @@ Cada una de estas características aparece como:
 - **Uso previsto:** Diagnóstico médico asistido
 - **Limitaciones:** No sustituye diagnóstico clínico profesional
 
-### 📊 Resultados
+## 📊 Resultados (Actualizado)
 
-- Accuracy: XX%
-- Precision: XX%
-- Recall: XX%
-- F1-score: XX%
+**Accuracy:** 93.6%
 
-_(Incluir gráficos como matriz de confusión, curva ROC, etc.)_
+### Precision:
+- **Clase 0 (Maligno):** 1.00  
+- **Clase 1 (Benigno):** 0.91
 
-### 🧩 Conclusiones
+### Recall:
+- **Clase 0 (Maligno):** 0.83  
+- **Clase 1 (Benigno):** 1.00
 
-- El modelo logra una buena capacidad de generalización.
-- Se identificaron las características más relevantes.
-- Se aplicaron principios de ingeniería para asegurar escalabilidad.
+### F1-score:
+- **Clase 0 (Maligno):** 0.90  
+- **Clase 1 (Benigno):** 0.95
+
+### Matriz de Confusión:
+
+|               | Predicho Maligno | Predicho Benigno |
+|---------------|------------------|------------------|
+| **Real Maligno** | 52               | 11               |
+| **Real Benigno** | 0                | 108              |
+
+---
+
+### 🔍 Observaciones:
+
+- El modelo clasificó correctamente todos los casos benignos.  
+- Se cometieron **11 falsos negativos** (malignos clasificados como benignos), lo cual es crítico en contextos médicos.
+
+---
+
+## 🧠 Conclusiones (Actualizado)
+
+- El modelo **SVC** alcanzó una precisión general alta (**93.6%**), pero mostró un **recall bajo para la clase maligna**, lo cual puede ser riesgoso en aplicaciones clínicas.  
+- Se recomienda aplicar **normalización de datos** y **ajustar hiperparámetros** para mejorar la sensibilidad del modelo.  
+- La implementación demuestra un flujo completo de *Machine Learning* supervisado, desde la **carga de datos** hasta la **evaluación**, siguiendo buenas prácticas de ingeniería.
+
 
 ---
 
